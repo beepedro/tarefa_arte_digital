@@ -1,1 +1,25 @@
+body {
+    background-color: yellow;
+    color: blue;
+    font-family: Arial, sans-serif;
+}
 
+header {
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    color: blue
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
