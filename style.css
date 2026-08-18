@@ -1,12 +1,13 @@
 body {
-    background-color: yellow;
-    color: blue;
+    background-color: rgb(252, 252, 248);
+    color: rgb(60, 60, 180);
     font-family: Arial, sans-serif;
+    margin: o;
 }
 
 header {
-    background-color: yellow;
-    color: white;
+    background-color: rgb(253, 253, 253);
+    color: rgb(60, 60, 180);
     text-align: center;
     padding: 30px;
 }
@@ -22,6 +23,22 @@ h2 {
 p {
     font-size: 18px;
     line-height: 1.6;
+}
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color:white
+    text-decoration: nome;
+    background-color: #9b4d83
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color:rgb(252, 252, 248)
 }
 main{
 width:80%;
@@ -41,4 +58,31 @@ max-width: 600px;
 diplay: block;
 margin
 
+}
+
+figcaption {
+    text-align: center;
+    font-sie: 14px;
+    color:white
+    margin-top: 8px;
+}
+
+card {
+    background-color: rgb(60, 60, 180);
+    padding: 15px;
+    margin: 15px;
+    border-left: 6px solid white;
+    border-radius: 10px;
+}
+
+card h3 {
+    margin-top: o;
+}
+
+footer {
+    background-color: white;
+    color:white;
+    text-align: center;
+    paddgin: 20px;
+    margin-top: 30px;
 }
