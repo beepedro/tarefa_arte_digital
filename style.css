@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(249, 249, 250);
+    background-color: rgb(56, 56, 151);
     color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
     margin: 0;
@@ -80,7 +80,7 @@ figcaption {
 }
 
 footer {
-    background-color: white;
+    background-color: rgb(56, 56, 151);
     color:white;
     text-align: center;
     padding: 20px;
