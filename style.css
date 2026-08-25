@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: rgb(56, 56, 151);
-    color: rgb(243, 243, 247);
+    color: rgb(56, 56, 151);
     text-align: center;
     padding: 30px;
 }
@@ -38,7 +38,7 @@ nav a {
     display: inline-block;
 }
 nav a:hover {
-    background-color:rgb(252, 252, 248);
+    background-color:rgb(56, 56, 151);
 }
 main{
 width:80%;
