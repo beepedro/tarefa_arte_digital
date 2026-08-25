@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    color: blue;
+    color: rgb(254, 254, 255);
 }
 
 p {
@@ -31,7 +31,7 @@ nav {
 nav a {
     color:white;
     text-decoration: none;
-    background-color: #9b4d83;
+    background-color: #fbfcfd;
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -46,7 +46,7 @@ margin:auto;
 }
 
 section {
-background-color: blue;
+background-color: rgb(252, 252, 253);
 margin: 20px 0;
  padding: 20px;
  border-radius: 12px;
@@ -68,7 +68,7 @@ figcaption {
 }
 
 .card {
-    background-color: rgb(60, 60, 180);
+    background-color: rgb(247, 247, 248);
     padding: 15px;
     margin: 15px;
     border-left: 6px solid white;
