@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(56, 56, 151);
     color: rgb(243, 243, 247);
     text-align: center;
     padding: 30px;
@@ -68,7 +68,7 @@ figcaption {
 }
 
 .card {
-    background-color: rgb(56, 56, 151);
+    background-color: rgb(255, 255, 255);
     padding: 15px;
     margin: 15px;
     border-left: 6px solid white;
@@ -80,7 +80,7 @@ figcaption {
 }
 
 footer {
-    background-color: rgb(56, 56, 151);
+    background-color: rgb(249, 249, 252);
     color:white;
     text-align: center;
     padding: 20px;
