@@ -89,14 +89,14 @@ footer {
 
 button {
     background-color: rgb(255, 234, 42);
-    color:azure;
+    color:rgb(0, 0, 0);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
 }
 button:hover {
-background-color: white;
+background-color: rgb(0, 0, 0);
 }
 .curtir{
     display: block;
