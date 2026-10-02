@@ -8,7 +8,7 @@ const botoesCurtir = document.querySelectorAll(".curtir");
              contador.textContent++;
               curtiu = true;}
                else{
-                 contador.textContent++;
+                 contador.textContent--;
                   curtiu = false; 
                 }
                 } 
