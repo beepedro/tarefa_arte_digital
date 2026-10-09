@@ -1,6 +1,19 @@
+:root{
+    --cor-fundo:rgb(56, 56, 152);
+    --cor-texto:rgb(255, 255, 255);
+    --cor-principal:rgb(56, 56, 152);
+    --cor-secundaria: rgb(219, 207, 33);
+    --cor-hover:rgb(153, 143, 5) ;
+    --cor-superficie: rgb(56, 56, 152);
+    --cor-card:rgb(56, 56, 152) ;
+    --cor-legenda: rgb(255, 255, 255);
+    --cor-clara: rgb(255, 255, 255);
+    --cor-rodape: rgb(153, 143, 5) ; 
+}
+
 body {
-    background-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
@@ -17,7 +30,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(254, 254, 255);
+    color: var(--cor-principal);
 }
 
 p {
@@ -30,9 +43,9 @@ nav {
 }
 
 nav a {
-    color: rgb(255, 255, 255);
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: rgb(186, 202, 43);
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -40,7 +53,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgb(56, 56, 151);
+    background-color: nav(--cor-hover);
 }
 
 main {
@@ -49,7 +62,7 @@ main {
 }
 
 section {
-    background-color: rgb(56, 56, 151);
+    background-color: var(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -66,15 +79,15 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: white;
+    color:nav(--cor-legenda);
     margin-top: 8px;
 }
 
 .card {
-    background-color: rgb(56, 56, 151);
+    background-color: nav(--cor-card);
     padding: 15px;
     margin: 15px;
-    border-left: 6px solid white;
+    border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
 }
 
@@ -83,7 +96,7 @@ figcaption {
 }
 
 footer {
-    background-color: rgb(85, 49, 216);
+    background-color: var(--cor-rodape);
     color: white;
     text-align: center;
     padding: 20px;
@@ -91,8 +104,8 @@ footer {
 }
 
 button {
-    background-color: rgb(1, 158, 206);
-    color: rgb(0, 0, 0);
+    background-color: var (--cor-principal);
+    color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -100,7 +113,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(1, 158, 206);
+    background-color: nav(--cor-hover);
 }
 
 .curtir {
