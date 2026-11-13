@@ -1,14 +1,14 @@
-:root{
-    --cor-fundo:rgb(254, 254, 255);
-    --cor-texto:rgb(255, 255, 255);
-    --cor-principal:rgb(56, 56, 152);
+:root {
+    --cor-fundo: rgb(254, 254, 255);
+    --cor-texto: rgb(255, 255, 255);
+    --cor-principal: rgb(56, 56, 152);
     --cor-secundaria: rgb(209, 219, 72);
-    --cor-hover:rgb(240, 232, 121) ;
+    --cor-hover: rgb(240, 232, 121);
     --cor-superficie: rgb(56, 56, 152);
-    --cor-card:rgb(221, 207, 4) ;
+    --cor-card: rgb(221, 207, 4);
     --cor-legenda: rgb(221, 207, 4);
     --cor-clara: rgb(12, 1, 1);
-    --cor-rodape: rgb(221, 207, 4); 
+    --cor-rodape: rgb(221, 207, 4);
 }
 
 body {
@@ -79,12 +79,12 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color:nav(--cor-legenda);
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
 .card {
-    background-color: nav(--cor-card);
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px;
     border-left: 6px solid var(--cor-principal);
@@ -105,7 +105,7 @@ footer {
 }
 
 button {
-    background-color: var (--cor-principal);
+    background-color: var(--cor-principal);
     color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
@@ -114,26 +114,26 @@ button {
 }
 
 button:hover {
-    background-color: nav(--cor-hover);
+    background-color: var(--cor-hover);
 }
 
 .curtir {
     display: block;
-    width:fit-content;
+    width: fit-content;
     margin: 20px auto;
 }
 
 .galeria {
-display: flex;
-gap: 20px;
-flax-wrap: wrap;
-justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cards-curiosidades {
     display: flex;
-    gap: 20 px;
-    flex-wrar: wrap;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .btn-tema {
